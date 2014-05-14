@@ -10,15 +10,15 @@ Built with Ruby 2.1.1
 
 After cloning, run the following commands:
 
-+bundle+
+<tt>bundle</tt>
 
-+rake db:migrate+
+<tt>rake db:migrate</tt>
 
-+rails server+
+<tt>rails server</tt>
 
 === Testing
 
 RSpec is used for testing. To run all of the tests, run the following command
 from the root of the project:
 
-+rspec+
+<tt>rspec</tt>
