@@ -1,0 +1,17 @@
+<%= form_for(@note) do |f| %>
+  <fieldset>
+    <ol>
+      <li>
+        <%= f.label :title %>
+        <%= f.text_field :title %>
+      </li>
+      <li>
+        <%= f.label :text %>
+        <%= f.text_area :text, autofocus: true %>
+      </li>
+    </ol>
+  </fieldset>
+  <p>
+    <%= f.submit("Save Note") %>
+  </p>
+<% end %>
